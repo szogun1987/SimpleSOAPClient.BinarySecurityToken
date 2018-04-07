@@ -9,10 +9,14 @@
     <PackageProjectUrl />
     <RepositoryUrl>https://github.com/szogun1987/SimpleSOAPClient.BinarySecurityToken</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <Version>1.0.2-alpha</Version>
+    <Version>1.0.3-alpha</Version>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="SimpleSOAPClient" Version="2.0.0-rc04" />
     <PackageReference Include="System.Security.Cryptography.Xml" Version="4.5.0-preview1-26216-02" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="SimpleSOAPClient, Version=2.0.0.0, Culture=neutral, PublicKeyToken=d7c4383c2e6f231a">
+      <HintPath>lib\SimpleSOAPClient.dll</HintPath>
+    </Reference>
   </ItemGroup>
 </Project>
